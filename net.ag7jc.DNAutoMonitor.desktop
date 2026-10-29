@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=DN-AUTO Monitor
+Comment=Amplifier band, power, SWR, current and temperature monitor, with alerts
+Exec=@APP_DIR@/dnauto_monitor_launcher.sh
+Icon=@APP_DIR@/assets/icon.png
+Terminal=false
+Categories=Utility;HamRadio;
+StartupNotify=true
+# GTK window's Wayland app id; GNOME also uses this file name to show the
+# app's notifications, so keep the name net.ag7jc.DNAutoMonitor.desktop
+StartupWMClass=net.ag7jc.DNAutoMonitor
+X-GNOME-UsesNotifications=true

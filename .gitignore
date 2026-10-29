@@ -1,0 +1,24 @@
+# python
+__pycache__/
+*.pyc
+venv/
+.venv/
+env/
+*.egg-info/
+# logs, runtime state, backups
+*.log
+*.pid
+*.bak
+*.orig
+*.pre-*
+*.dpkg-*
+# secrets -- keep them in env files outside git
+.env
+*.env
+!*.env.example
+*.pem
+*.key
+*.p12
+id_*
+secrets*
+*.installed-old
